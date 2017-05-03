@@ -51,7 +51,7 @@ hr {
 /* Enable these styles if you wish to go into a grid layout. */
 ul#images li {
     display: inline-block;
-    margin: 0 0 20px;
+    margin: 15px 0 20px;
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
@@ -72,7 +72,11 @@ ul#images li button {
 
 /*--- End of grid layout styles. */
 
+/*a{
+  font-size: 10px;
+  color: rgb(128, 0, 0);*/
 
+}
 ul#images {
     list-style-type: none;
 }
