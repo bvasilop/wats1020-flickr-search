@@ -49,6 +49,12 @@ hr {
     column-count: 4;
 }
 /* Enable these styles if you wish to go into a grid layout. */
+
+
+  body {
+     background-color: hsl(203, 84%, 90%);
+  }
+
 ul#images li {
     display: inline-block;
     margin: 15px 0 20px;
@@ -58,7 +64,10 @@ ul#images li {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     transition: 1s ease;
+
 }
+
+
 
 ul#images li img {
     display: inline-block;
@@ -83,8 +92,8 @@ ul#images {
 
 ul#images .placeholder {
     font-size: 2em;
-    font-weight: lighter;
-    color: #666;
+    font-weight: 500;
+    color: rgba(78, 78, 69, 0.82);
     width: 100%;
     margin: 2em;
 }
