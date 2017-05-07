@@ -101,7 +101,7 @@
                             $(this)
                                 .appendTo($(this).parent())
                             });
-                });
+                      });
                 ///previous/remove function -- not implemented yet
                 $(this).find('.prev').click(function () {
                     $(this)
@@ -113,15 +113,7 @@
                             .find('li:last-child')
                             .fadeIn()
                             .prependTo($(this).parent())
-                        });
+                      });
                 });
             });
-
-
-
-            // STRETCH GOAL: Add a "more info" popup using the technique shown on the
-            // Bootstrap Modal documentation: http://getbootstrap.com/javascript/#modals-related-target
-
-
-
-        });
+      });
