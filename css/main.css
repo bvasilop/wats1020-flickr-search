@@ -53,7 +53,29 @@ hr {
 
   body {
      background-color: hsl(203, 84%, 90%);
+     color: #00245D;
   }
+
+  btn-primary:active, .btn-primary.active {
+
+    border-color: #245580;
+
+    background: #00245D;
+    /*border-color: #00245D;*/
+    font-family: "Exo", Georgia, sans-serif;
+
+  }
+
+  .btn-primary:hover{
+    background:#337ab7;
+
+  }
+
+.navbar {
+  background: #00245D;
+  border-color: #00245D;
+  font-family: "Exo", Georgia, sans-serif;
+}
 
 ul#images li {
     display: inline-block;
@@ -67,8 +89,6 @@ ul#images li {
 
 }
 
-
-
 ul#images li img {
     display: inline-block;
     width: 100%;
@@ -77,6 +97,13 @@ ul#images li img {
 
 ul#images li button {
     display: inline-block;
+}
+
+.btn {
+
+  background: #00245D;
+  border-color: #00245D;
+  font-family: "Exo", Georgia, sans-serif;
 }
 
 /*--- End of grid layout styles. */
